@@ -23,7 +23,7 @@ const Login = ({navigation}) => {
             senha : senha
         }
 
-        fetch('http://192.168.3.173:5000/api/Account/login', {
+        fetch('http://192.168.7.129:5000/api/Account/login', {
            method : 'POST',
            headers : {
                'Content-Type' : 'application/json'
@@ -85,6 +85,7 @@ const styles = StyleSheet.create({
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
+      paddingBottom: 300,
     },
     input : {
         width: '90%',
